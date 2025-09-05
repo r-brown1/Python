@@ -129,7 +129,17 @@ Write a function `make_adder(n)` that returns a lambda function. The returned fu
 
 Example:
 
-```python
+```
+python
 add5 = make_adder(5)
 print(add5(3))  # Output: 8
 ```
+
+## 21. Match function outputs string
+
+Write a function grade(score) that uses match with guards (if) to print the correct grade for the score given.
+
+
+## 22. Match calculator
+
+Write a function calculate(operation, num_one, num_two) that uses match to return the result of a basic operation.
